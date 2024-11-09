@@ -1,0 +1,50 @@
+body {
+    font-size: 14px;
+    background-color: hsl(30, 38%, 92%);
+    padding: 200px;
+    margin: 0 auto
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 100vw;
+    max-width: 500px;
+    border-radius: 10px;
+    display: flex;
+    padding-right: 20px;
+}
+img {
+    height: 70vh;
+    
+}
+.sub {
+    padding: 20px;
+}
+h1 {
+    font-family: 'Fraunces';
+    margin: 0;
+    
+}
+h3, h4, p  {
+    font-family: 'Montserrat';
+    color: hsl(228, 12%, 48%);
+    font-size: small;
+}
+.price{
+    display: flex;
+    margin: 20px;
+}
+a{
+    padding: 10px 45px;
+    background: hsl(158, 36%, 37%);
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat';
+    border-radius: 10px ;
+}
+a:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+.price h1 {
+    color: hsl(158, 36%, 37%);
+    padding-right: 10px;
+}
